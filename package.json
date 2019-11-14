@@ -1,0 +1,42 @@
+{
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "jszip": "^3.2.2",
+    "node-emoji": "^1.10.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.8",
+    "sharp": "^0.23.2",
+    "telegraf": "^3.33.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "name": "sticker-export-telegram-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "Telegram bot to export sticker packs",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kddlb/sticker-export-telegram-bot.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "sticker",
+    "pack",
+    "webp"
+  ],
+  "author": {
+    "name": "Kevin López Brante",
+    "email": "kevin@kddlb.cl",
+    "url": "https://kddlb.cl"
+  },
+  "bugs": {
+    "url": "https://github.com/kddlb/sticker-export-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/kddlb/sticker-export-telegram-bot#readme"
+}
